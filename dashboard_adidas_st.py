@@ -11,7 +11,7 @@ st.set_page_config(page_title="Adidas Sales", page_icon=":earth_americas:", layo
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 
 image = Image.open(
-    r"C:\Users\Administrator\PycharmProjects\dashboard_adidas_st\img\adidas.jpg")
+    r".\adidas.jpg")
 
 col1, col2 = st.columns([0.1, 0.9])
 with col1:
